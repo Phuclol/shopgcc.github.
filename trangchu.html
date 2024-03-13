@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Đồ Gia Dụng</title>
+    <link rel="stylesheet" href="CSS/trangchu.css">
+</head>
+<body>
+    <header>
+        <h1>Shop GCC</h1>
+    </header>
+    <div class="menu">
+        <ul>
+            <li><a href="dangnhap.html">Đăng nhập</a></li>
+            <li><a href="dangky.html">Đăng ký</a></li>
+            <li><a href="lienhe.html">Liên hệ</a></li>
+        </ul>
+        <div class="timkiem">
+            <input type="text" id="searchInput" placeholder="Tìm gì?..." oninput="updateSearchResults()">
+            <button onclick="Search()">Tìm</button>
+            <div id="results"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <section>
+        <article>
+            <p><b><font size="6" color="red">Ấm đun nước siêu tốc</font></b></p>
+            <img src="Hinhanh/amdunnuoc.webp">
+            <a href="conhang.html"><p>Ấm đun nước siêu tốc Điện Quang ĐQ EKT06 1518 BL (1.500W, 1.8L, inox 201, nhựa PP, màu đen)</p></a>
+            <p><font size="5" color="red">197,000 VNĐ</font></p>
+            <a href="conhang.html"><img src="Hinhanh/Chonmua.png"></a>
+        </article>
+        <article>
+            <p><b><font size="6" color="red">Bàn ủi Panasonic </font></b></p>
+            <img src="Hinhanh/banla.jfif">
+            <a href="banui1.html"><p>Bàn ủi Panasonic NI-M300TVRA( Mặt đế phủ Titan chống dính,công suất 1800 W,ủi khô, ủi ướt) </p></a>
+            <p><font size="5" color="red">590,000 VNĐ</font></p>
+            <a href="banui1.html"><img src="Hinhanh/Chonmua.png"></a>
+        </article>
+        <article>
+            <p><b><font size="6" color="red">Chảo chống dính cao cấp Kalpen Pepler</font></b></p>
+            <img src="Hinhanh/chao.jfif">
+            <a href="chao1.html"><p>Chảo chống dính cao cấp Kalpen Pupler(dài 2.4mm,nhôm nguyên chất, chống dính vượt trội)</p></a>
+            <p><font size="5" color="red">310.000 VND</font></p>
+            <a href="chao1.html"><img src="Hinhanh/Chonmua.png"></a>
+        </article>
+        <article>
+            <p><b><font size="6" color="red">Bộ dao 5 món làm bếp cao cấp BUCK</font></b></p>
+            <img src="Hinhanh/bodaolambep.jpg">
+            <a href="bodao1.html"><p>Bộ dao 5 món làm bếp cao cấp BUCK</p></a>
+            <p><font size="5" color="red">67,000 VNĐ</font></p>
+            <a href="bodao1.html"><img src="Hinhanh/Chonmua.png"></a>
+        </article>
+        <article>
+            <p><b><font size="6" color="red">Lò nướng Kangaroo KG4001 40lít</font></b></p>
+            <img src="Hinhanh/lonuong.png">
+            <a href="lonnuong1.html"><p>Lò nướng Kangaroo KG4001 40lít(Công suất 1600W,xiên quay 360,đèn trong khoang lò quan sát thực phẩm khi nướng)</p></a>
+            <p><font size="5" color="red">990,000 VNĐ</font></p>
+            <a href="lonnuong1.html"><img src="Hinhanh/Chonmua.png"></a>
+        </article>
+        <article>
+            <p><b><font size="6" color="red">Nồi chiên không dầu Hawonkoo AFH-045 6lít</font></b></p>
+            <img src="Hinhanh/noichien.png">
+            <a href="noichien1.html"><p>Nồi chiên không dầu Hawonkoo AFH-045 6lít(Công nghệ Rapid Air,công suất 1500W,điều khiển cảm ứng,màn hình sắc nét)</p></a>
+            <p><font size="5" color="red">2,990,000 VNĐ</font></p>
+            <a href="noichien1.html"><img src="Hinhanh/Chonmua.png"></a>
+        </article>
+        <article>
+            <p><b><font size="6" color="red">Máy khoan Mikita</font></b></p>
+            <img src="Hinhanh/maykhoan.jfif">
+            <a href="maykhoan1.html"><p>Máy khoan Makita(Chạy bằng pin 18v,khoan mạnh và sâu)</p></a>
+            <p><font size="5" color="red">2,402,000 VNĐ</font></p>
+            <a href="maykhoan1.html"><img src="Hinhanh/Chonmua.png"></a>
+        </article>
+        <article>
+            <p><b><font size="6" color="red">Máy lọc không khí Philips</font></b></p>
+            <img src="Hinhanh/maylockhongkhi.jpg">
+            <a href="maylockhongkhi1.html"><p>Máy lọc không khí Philips (3 lớp Nano protect HEPA loại bỏ chất gây ô nhiễm và dị ứng,diệt khuẩn lên đến 99,99%)</p></a>
+            <p><font size="5" color="red">4,990,000 VNĐ</font></p>
+            <a href="maylockhongkhi1.html"><img src="Hinhanh/Chonmua.png"></a>
+        </article>
+        <article>
+            <p><b><font size="6" color="red">Bàn ủi hơi nước Tefal</font></b></p>
+            <img src="Hinhanh/banuihoinuoc.webp">
+            <a href="banui2.html"><p>Bàn ủi hơi nước Tefal(công suất 1200W làm nóng nhanh,có núm xoay điều chỉnh nhiệt độ,)</p></a>
+            <p><font size="5" color="red">390,000 VNĐ</font></p>
+            <a href="banui2.html"><img src="Hinhanh/Chonmua.png"></a>
+        </article>
+        <article>
+            <p><b><font size="6" color="red">Lò nướng Sanaky 25l</font></b></p>
+            <img src="Hinhanh/lonuong1.webp">
+            <a href="lonnuong2.html"><p>Lò nướng Sanaky 25l(Công suất 1400W,xiên quay 360)</p></a>
+            <p><font size="5" color="red">1,290,000 VNĐ</font></p>
+            <a href="lonnuong2.html"><img src="Hinhanh/Chonmua.png"></a>
+        </article>
+    </section>
+    <footer class="footer">
+        <div class="footernoidung">
+            <div class="khoidiv">
+                <h3>Địa chỉ văn phòng</h3>
+                <p>Số 25, Khu Đô thị Vĩnh Hàng, Phường Phúc Long, Việt Nam</p>
+                <h3>Địa chỉ kho</h3>
+                <p>Bến cảng Vân Phong, vịnh Vân Phong, khu kinh tế Vân Phong tỉnh Khánh Hòa, Việt Nam</p>
+                <h3>Địa chỉ đăng ký kinh doanh</h3>
+                <p> 295 Hai Bà Trưng, Phường 8, Quận 3, Thành phố Hồ Chí Minh</p>
+                <h3>Số điện thoại</h3>
+                <p>02424523891</p>
+                <h3>Email</h3>
+                <p>lamgico@gmail.com</p>
+            </div>
+            <div class="khoidiv">
+                <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+                <ul>
+                    <a href="lienhe.html"><li>Liên hệ</li></a>
+                </ul>
+            </div>
+            <div class="khoidiv">
+                <h3>TỔNG ĐÀI HỖ  TRỢ</h3>
+                <p>Hotline tư vấn: (0274)3822569</p>
+                <p>Hotline khiến nại: (0274)3831284</p>
+            </div>
+            <div class="khoidiv">
+                <h3>PHƯƠNG THỨC THANH TOÁN</h3>
+                <p>Tiền mặt (khi nhận hàng)</p>
+                <p>......</p>
+                <p>Ví điện tử: </p>
+                <p>ZaloPay</p>
+                <p>Momo</p>
+                <a href="thanhtoan.html"><p>Mbbank</p></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
